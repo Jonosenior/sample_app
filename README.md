@@ -39,3 +39,13 @@ $ rails server
 
 For more information, see the
 [*Ruby on Rails Tutorial* book](http://www.railstutorial.org/book).
+
+## Chapter 3
+
+  * The rails script generates a new controller with $ rails generate controller ControllerName <optional action names>.
+
+  * New routes are defined in the file config/routes.rb.
+
+  * Testing - use 'assert_select' to test presence of an html tag.
+
+  * ERB - use <% provide(:title, "Contact") %> to set a label and pass a string, and then yield(:title) to inset that label.
